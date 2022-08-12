@@ -4,7 +4,7 @@ import sys
 from sqlalchemy import create_engine
 
 app = Flask(__name__)
-db = create_engine('mysql://user:pass@localhost/flaskdata')
+db = create_engine('mysql://root:P4ssw0rd@localhost/flaskdata')
 
 class dbsql():
     def insert_content(self, content):
